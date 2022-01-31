@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Completed Projects</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script/scripts.js"></script> 
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="container border">
+        <nav class="flex items_center justify-between">
+            <div class="left flex items_center head-center">
+                <div class="ss flex items_center">
+                    Portfolio
+                </div>
+                <div>
+                    <a class="btn btn1" href="index.html">About Me</a>
+                    <a class="btn btn1" href="skills.html">My skills</a>
+                    <a class="btn btn1 active-btn" href="Projects.html">Projects</a>
+                    <a class="btn btn1" href="sports.html">Sports</a>
+                    <a class="btn btn1" href="myfavseries.html">Favourite Series</a>
+                </div>
+            </div>
+            <div class="right border head-center">
+                <button class="btn1" onclick="openForm();">Contact</button>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <section class = "blog">
+        <div class="containerblog container3">
+            <h1 id="head1">My projects</h1><br><br>
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/symbolRec.jpeg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h1>Symbol recognition</h1>
+                        <span>Oct 18, 2019</span><br><br>
+                        <p>
+                            This is one of the excellent computer science project ideas for beginners. 
+                            The proposed project seeks to build a system that can recognize symbols inserted by the user. 
+                        </p><br>
+                   <span>Python | Artificial Intelligence | Semantics</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/RE.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h1>Formal Verification of Red-Black Tree implementation</h1>
+                        <span>Feb 08, 2019</span><br><br>
+                        <p>
+                            I have analyzed this STL function <strong>Rb_tree_insert_and_rebalance</strong>  in the STL library implementation which inserts a new node into the red-black tree and rebalances if necessary. 
+                        </p>
+                        <span>
+                            Separation Logic | Formal Methods | VeriFast
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/heart.png" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h1>Clustering Heart Disease Patient Data</h1>
+                        <span>Dec 10, 2018</span><br><br>
+                        <p>
+                            Doctors frequently study former cases to learn how to best treat their patients. 
+                            A patient who has a similar health history or symptoms to a previous patient could benefit from undergoing the same treatment. 
+                            
+                        </p><br>
+                        <span>
+                            R | k-means | Clustering algorithms
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/grade.jpg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <h1>Evaluation of academic performance</h1>
+                        <span>Oct 03, 2018</span><br><br>
+                        <p>
+                            This project involves the creation of an evaluation system that can analyze the academic performance of students by utilizing the fuzzy logic method. 
+                            In the fuzzy logic method, you will consider three parameters, namely, attendance, internal marks, and external marks, to evaluate the final academic performance of students of an institution. 
+                        </p><br>
+                        <span> C# | Microsoft Visual Basic</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/ar.png" alt="Object Recognition using AR">
+                    </div>
+                    <div class="card-content">
+                        <h1>Object Recognition using AR</h1>
+                        <span>July 16, 2018</span><br><br>
+                        <p>
+                            Augmented Reality (AR) is a technology which combines virtual 
+                objects and real-world environments. Technologies like Computer Vision and 
+                Object Recognition can be used with AR to create an interactive and enhanced user experience of the real world.The purpose of this system is to accelerate learning and understanding of 
+                   concepts such as structures or mechanisms. 
+                    
+                        </p><br>
+                        <span> Unity | C# programming language | Vuforia | Augmented Reality</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="img-card">
+                        <img src="images/dbank.png" alt="Online banking system">
+                    </div>
+                    <div class="card-content">
+                        <h1>Online Banking System</h1>
+                        <span>May 2018</span><br><br>
+                        <p>
+                            The BANK has been working for Accounts information, Withdrawal, Deposit amount. In this Software you can keep record for daily Banking transactions.
+                            This software or application could maintain data & provide a user friendly interface for retrieving customer related details just in few seconds, with 100% accuracy. 
+                        </p>
+                        </p><br>
+                        <span>C# | Windows 7 | NoSql | Microsoft SQL Server</span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <div class="child1"><a href="#top"><img id="img8" class="on-top" src="images/up-arrow.png" alt="Top navigation"></a></div>
+    <div class="form-popup" id="myForm">
+        <form action="/index.html" class="form-container">
+          <h2>Enter your details</h2><br>
+          <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <br><br>
+          <label for="query"><b>Your Query</b></label>
+                <input type="text" placeholder="Please type your query here ..." name="query" required>
+      
+          <button type="submit" class="btn">Submit</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+        </form>
+      </div>
+
+    <footer id="footer" class="fixed">
+        <div class="container">
+        <div class="links-align flex items_center justify-between">
+            <div>
+                Published by: Sukhjeet Singh &copy; 2020-2021 | 
+                CSIS 1280 Mutimedia Web development Assignemnt-001</div>
+            <div>
+                <a href="mailto:sukhjeetsingh1802@gmail.com"><img src="images/email.png" alt="mail"></a>
+                <a href="https://twitter.com/sukhjeet57196" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://www.linkedin.com/in/sukhjeet-singh-90231814b/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+        <div class="links-align flex items_center justify-footer">
+            <div>
+                Icons taken from:
+            </div>
+            <div>
+                <a href="https://www.flaticon.com/home" target="_blank"><img id="credit-icon" src="images/flat1.png" alt="flaticon"></a> 
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My protfolio: Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="script/scripts.js"></script> 
+</head>
+<body>
+    <header class="navbar">
+        <div class="container border">
+        <nav class="flex items_center justify-between">
+            <div class="left flex items_center head-center">
+                <div class="ss flex items_center">
+                    Portfolio
+                </div>
+                <div>
+                    <a class="btn btn1 active-btn border" href="index.html">About Me</a>
+                    <a class="btn btn1 border" href="skills.html">My skills</a>
+                    <a class="btn btn1 border" href="Projects.html">Projects</a>
+                    <a class="btn btn1 border" href="sports.html">Sports</a>
+                    <a class="btn btn1 border" href="myfavseries.html">Favourite Series</a>
+                </div>
+            </div>
+            <div class="right border head-center">
+                <button class="btn1" onclick="openForm();">Contact</button>
+            </div>
+        </nav>
+    </div>
+    </header>
+    <div id="top" class="container2 flex items_center">
+        <div class="left2 items_center">
+                    <img src="images/my6.png" alt="Personal image Here!">  
+            </div>
+        <div class="right2 justify-between border">
+            <em><h1 id="name">Sukhjeet Singh</h1></em>
+            <span class="im">I am a </span>  <br><span id="engineer">Computer Engineer</span><br><br>
+            <div id="line-spacing" class="flex im">
+                <img class="icon1" src="images/graduate.png" alt="graduation">
+                Qualification: Bachelor of Engineering (Computer Engineering) from
+                <br>
+                Pune University("also know as Oxford of the east").
+            </div><br>
+            <div class="flex im">
+                <img class="icon1" src="images/mail.svg" alt="mail">
+                Email: sukhjeet5719@gmail.com
+            </div><br>
+            <div class="flex im border">
+                <img class="icon1" src="images/location.svg" alt="location">
+                Address: C-7/19 Uttam Nagar, Rajasthan 325208.
+            </div>
+             <br>
+             <p ><a id="b2" class="btn btn-first border" href="skills.html">Know More</a></p>
+            </div>
+    </div>
+    <div class="child1 border"><a href="#top"><img id="img8" class="on-top" src="images/up-arrow.png" alt="Top navigation"></a></div>
+    
+    <div class="form-popup" id="myForm">
+        <form action="/index.html" class="form-container">
+          <h2>Enter your details</h2><br>
+          <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="country">Country</label>
+            <select id="country" name="country" required>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <br><br>
+          <label for="query"><b>Your Query</b></label>
+                <input type="text" placeholder="Please type your query here ..." name="query" required>
+      
+          <button type="submit" class="btn">Submit</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Cancel</button>
+        </form>
+      </div>
+    <footer id="footer" class="fixed">
+        <div class="container">
+        <div class="links-align flex items_center justify-between">
+            <div>
+                Published by: Sukhjeet Singh &copy; 2020-2021 | 
+                CSIS 1280 Mutimedia Web development Assignemnt-001</div>
+            <div>
+                <a href="mailto:sukhjeetsingh1802@gmail.com"><img src="images/email.png" alt="mail"></a>
+                <a href="https://twitter.com/sukhjeet57196" target="_blank"><img src="images/twitter.png" alt="twitter"></a>
+                <a href="https://www.linkedin.com/in/sukhjeet-singh-90231814b/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a>
+            </div>
+        </div>
+        <div class="links-align flex items_center justify-footer">
+            <div>
+                Icons taken from:
+            </div>
+            <div>
+                <a href="https://www.flaticon.com/home" target="_blank"><img id="credit-icon" src="images/flat1.png" alt="flaticon"></a> 
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
+
